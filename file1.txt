@@ -1,0 +1,23 @@
+you create a folder (normal)
+its not yet a gitrepository
+you first login to gitbash then 
+creat a file in the folder
+when you create file its in working directory
+
+check git status 
+do git init on folder
+when you do git init the normal folder changes to Git repository.
+
+to add the file in working directory to staging area(virtual area)
+ use - 
+git add file1.txt 
+the changes will be saved in .git directory (internal working)
+
+now to finalize it into repository 
+use -
+git commit -m "file1 added"
+
+Git repository contains code and its metadata.(the whole main folder ) 
+.git directory - it contains the matadata of the repository (the hidden folder with .git extension)
+
+
