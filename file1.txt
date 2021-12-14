@@ -1,23 +1,55 @@
-you create a folder (normal)
-its not yet a gitrepository
+you create a folder.
+it does not yet have a git repository
 you first login to gitbash then 
-creat a file in the folder
-when you create file its in working directory
 
+you initialized that folder.
 check git status 
+
 do git init on folder
-when you do git init the normal folder changes to Git repository.
+creates Git repository( .git) inside folder
+(The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.)
+
+to start capturing the history of files we now have Git repository created.
+
+its time to create a file - file1.txt
+when you create file in folder its in working directory
 
 to add the file in working directory to staging area(virtual area)
  use - 
 git add file1.txt 
-the changes will be saved in .git directory (internal working)
+the changes will be saved in .git directory as metadata(internal working)
+(The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.)
 
 now to finalize it into repository 
 use -
-git commit -m "file1 added"
+git commit -m "file1 added"     (-m is message in " " write any msg in it)
 
-Git repository contains code and its metadata.(the whole main folder ) 
-.git directory - it contains the matadata of the repository (the hidden folder with .git extension)
+the metadata of file1.txt is added to .git repostitory
+ 
+
+Git repository(.git directory) contains code and its metadata.
+ 
+
+git status - you keep chekcing if there is any modification in the file1.txt 
+if there any it will show
+ "changes not staged for commit     modified: file1.txt  "
+
+now to add all changes to .git we use  
+
+git add .               (all commit)S
+
+
+lets take wedding example - where couples are on the stage and there is a photographer and guest(files) wants to take picture with them
+in this anology -  
+ambience/hall is working directory.
+stage is like staging area 
+photographer or album is .git repository
+
+to capture the picture guest(file) have to get up to stage(staging area) and then photographer will click(commit) the picture which will be saved in album(.git)
+
+
+git log 
+to check for number of commits or history
+
 
 
