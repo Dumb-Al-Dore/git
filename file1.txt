@@ -1,12 +1,11 @@
-you create a folder.
-it does not yet have a git repository
-you first login to gitbash then 
-
-you initialized that folder.
-check git status 
-
-do git init on folder
-creates Git repository( .git) inside folder
+if you create a new folder.
+to make this a git repository,
+you first login to gitbash.
+then -
+you initialized that folder.   
+by -
+doing git init on folder which
+creates Git repository( .git) inside that folder
 (The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.)
 
 to start capturing the history of files we now have Git repository created.
@@ -30,7 +29,7 @@ the metadata of file1.txt is added to .git repostitory
 Git repository(.git directory) contains code and its metadata.
  
 
-git status - you keep chekcing if there is any modification in the file1.txt 
+git status - you keep checking if there is any modification in the file1.txt 
 if there any it will show
  "changes not staged for commit     modified: file1.txt  "
 
