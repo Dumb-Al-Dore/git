@@ -1,7 +1,27 @@
-changes made 1
+
 
 After git commit command, you entered to the editor, so first hit i then start typing. After committing your message hit Ctrl + c then :wq
 
  you want your current branch HEAD to move to the specified commit, below is the command:
 
  git checkout <commit_hash>
+--------------------------------------------------------------------------------------------------------
+UPSTREAM AND DOWNSTREAM -
+
+Generally, upstream is from where you clone the repository, and downstream is any project that integrates your work with other works.
+
+In terms of source control, you're downstream when you copy (clone, checkout, etc) from a repository. Information flowed "downstream" to you.
+
+Using the analogy of a river, we can follow a resource upstream from us until we find the headwaters (the source of a stream or river).
+
+Continuing with the river analogy, downstream is the direction that the water in a river flows. Downhill.
+
+So, if I fork someone's project, The project I forked is upstream. And my fork is downstream.
+
+if someone forks my forked project, Then my fork becomes upstream relative to the fork of my project.
+
+And the fork of my fork becomes downstream.
+
+set upstream in config 
+
+ git config --global push.default upstream
