@@ -30,6 +30,7 @@ below is used to change the url of an existing remote repository:
 
 git remote set-url origin "URL OF REMOTE REPO"
 
+ORIGIN- 
 origin is not the remote repository name. It is rather a local alias set as a key in place of the remote repository URL.
 origin is the default alias to the URL of your remote repository.
 
