@@ -1,3 +1,43 @@
+git stash check changes made on 9/07/2022
+to check stash command
+
+Use git stash when you want to record the current state of the working directory and the index, but want to go back to a clean working directory (basically means u dont want to commit those changes now and just want to save that code as history)
+flow-
+first make the changes in working directory and then add them in staging area 
+but if u dont want to commit them but also want to store them in history and just want to go back to previous clean state
+then use the command -
+ git stash
+
+to bring those changes back to working directory
+use - 
+git stash pop
+
+to clear the stash 
+git stash clear
+
+--------------------------------------------------------------------------------------
+adding URL   ( to connecting particular URL to the folder. so we can add that folder in remote repository)
+note - we first add the URL then we push our local repo to remote repo using this url connection)
+
+create a empty repository on remote and copy that url  - now add that url. 
+
+below is used to a add a new remote(URL):
+
+git remote add origin "URL OF REMOTE REPO"
+
+
+below is used to change the url of an existing remote repository:
+
+git remote set-url origin "URL OF REMOTE REPO"
+
+origin is not the remote repository name. It is rather a local alias set as a key in place of the remote repository URL.
+origin is the default alias to the URL of your remote repository.
+
+
+git remote -v 
+this will show all the URLs attached to this folder/repo
+
+
 
 git checkout file2.txt  
 git-checkout - Switch branches or restore working tree files
