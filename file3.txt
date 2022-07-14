@@ -1,3 +1,21 @@
 changes made 1
 
 After git commit command, you entered to the editor, so first hit i then start typing. After committing your message hit Ctrl + c then :wq
+
+
+
+FORK-
+
+origin url (forked one) is your account        ( do - git clone url)
+and
+from where you have forked the project is know as upstream url 
+do- git remote add upstream url
+
+
+
+BRANCH - NOTE-
+if branch already has a pull request associated with it it will not allow to create a new pull request
+it will add the new commit to existing pull request.
+
+so its recommended to have only one pull request for one branch.
+in simple words,one pull request means one branch.
