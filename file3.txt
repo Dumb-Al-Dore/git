@@ -19,3 +19,8 @@ it will add the new commit to existing pull request.
 
 so its recommended to have only one pull request for one branch.
 in simple words,one pull request means one branch.
+
+
+GIT IGNONER -
+list of directories or files to be ignored for git repository
+used to ensure that binaries , IDE metadata files and other undesired files are not maintained in git repository
